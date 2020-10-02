@@ -1,0 +1,198 @@
+@import "./style/user.css";
+@import "./style/messages.css";
+@import "./style/contactForm.css";
+
+html, body, .rs-container {
+    min-height: 100vh;
+}
+
+.sidebar-page {
+    min-height: 100vh;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.sidebar-page .rs-sidebar {
+    background: white;
+}
+
+.sidebar-page .rs-container {
+    background-color: #f4f5f7;
+}
+
+.sidebar-page .rs-content {
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    background: white;
+    margin: 20px;
+}
+
+.sidebar-page .rs-header {
+    padding: 20px;
+}
+
+
+
+
+.tools {
+    padding: 20px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.sidebar-page .tools__tool {
+    margin-bottom: 20px;
+}
+
+.sidebar-page .tools__tool h6 {
+    margin-bottom: 10px;
+}
+
+.login-page .rs-flex-box-grid {
+    min-height: 100vh;
+}
+
+.login-page .rs-flex-box-grid-item {
+    margin: auto auto;
+    max-width: 500px;
+}
+
+.login-page .rs-panel {
+    background-color: white;
+}
+.login-page {
+    background-color: #f4f5f7;
+}
+
+.users-page__add-button {
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 80px;
+}
+
+.login-form__login-error {
+    margin-bottom: 20px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.chart__clients-wrapper {
+    padding: 20px;
+    border: 1px solid #e5e5ea;
+    border-radius: 6px;
+    width: 260px;
+}
+
+.clients__picker {
+    margin: 20px 0px;
+}
+
+.chart__range {
+    margin: 20px 0px;
+    width: 220px;
+}
+
+.chart__range-wrapper, .chart__toggle-wrapper {
+    border: 1px solid #e5e5ea;
+    border-radius: 6px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.chart__toggle-wrapper {
+    padding: 20px;
+}
+.chart__toggle {
+    margin: 20px 0px;
+    width: 20px;
+}
+
+.chart__graph {
+    margin: 20px 0;
+    padding: 10px;
+    width: 730px;
+    border: 1px solid #e5e5ea;
+    border-radius: 6px;
+}
+
+.chart__tools {
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.form__edit {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.form__edit-headline  {
+    margin: 25px 0px;
+}
+
+.content {
+    padding: 80px;
+}
+
+.content__clients {
+    margin: 20px 40px;
+}
+
+.toolbar__button {
+    margin-right: 10px;
+    width: 90px;
+}
+
+.form__edit {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+.form__delete {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.toolbar {
+    margin: 20px;
+}
+
+.modal-admin {
+    margin: auto !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+.table__header-add-user { 
+    width: 80px;
+}
+
+.table__header-search {
+    margin: 0px 20px;
+    height: 30px;
+    width: 240px;
+}
+
+.table__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    margin: 10px 0px;
+}

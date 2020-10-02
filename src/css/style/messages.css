@@ -1,0 +1,120 @@
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+
+@font-face {
+    font-family: Oswald-Medium;
+    src: url('../fonts/oswald/Oswald-Medium.ttf'); 
+  }
+  
+  /*//////////////////////////////////////////////////////////////////
+  [ RESTYLE TAG ]*/
+  
+  .messages p {
+    overflow: hidden;
+    font-family: Oswald-Medium;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 200;
+    margin: 0px;
+    min-height: 53px;
+    text-align: justify;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .messages .phonenumber {
+    float: right; 
+    font-size: 17px;
+  }
+  .messages .row {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .messages .avatar {
+    margin-right: 50px; 
+    width: 100px; 
+    height: 100px; 
+    background: black; 
+    display: flex; 
+    flex-direction: row;
+  }
+  
+  
+  /*//////////////////////////////////////////////////////////////////
+  [ message ]*/
+  
+  .container-message100 {
+    width: 100%;  
+    min-height: 20vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .wrap-message100 {
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 45px 55px 45px 55px;
+    min-height: 100px;
+  }
+  
+  .wrap-text100 {
+    display: flex;
+  }
+  
+  /*==================================================================
+  [ Form ]*/
+  
+  .message100-form {
+    width: 100%;
+  }
+  
+  .message100-form-title {
+    display: block;
+    font-family: Oswald-Medium;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  
+  .message100-text-wrapper {
+    width: 50%;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      margin: 50px 10px;
+    }
+  
+    .message100-form-title {
+      font-size: 20px;
+    }
+    .messages .phonenumber {
+      float: right; 
+      font-size: 15px;
+    } 
+  }
